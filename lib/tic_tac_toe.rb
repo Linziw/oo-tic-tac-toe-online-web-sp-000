@@ -76,8 +76,8 @@ end
 end
 end
 
-def full?(board)
-  if board.include?(" ")
+def full?
+  if @board.include?(" ")
     return false
   else 
     return true
